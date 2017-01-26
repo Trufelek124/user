@@ -55,7 +55,7 @@ class EditionController extends Controller
             return $response;
         }
 
-        return $this->render('TkuskaUserBundle:Edition:edit.html.twig', array(
+        return $this->render('TkuskaUserBundle:Profile:edit.html.twig', array(
             'user' => $user,
             'form' => $form->createView(),
         ));
